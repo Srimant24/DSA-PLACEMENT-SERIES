@@ -16,5 +16,8 @@ public class P5 {
             System.out.println();
         }
     }
-
 }
+//               *
+//              **
+//             ***
+//            ****

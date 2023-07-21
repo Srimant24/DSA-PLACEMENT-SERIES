@@ -11,5 +11,9 @@ public class P7 {
             System.out.println();
         }
     }
-
 }
+//        12345
+//        1234
+//        123
+//        12
+//        1
