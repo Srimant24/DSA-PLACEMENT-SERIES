@@ -1,15 +1,8 @@
 package DSA.SORTING.CYCLICSORT;
-
-import java.util.Arrays;
-
-public class cyclicsort {
-    public static void main(String[] args) {
-        int[] arr = {5, 4, 3, 2, 1};
-        sort(arr);
-        System.out.println(Arrays.toString(arr));
-    }
-
-    static void sort(int[] arr) {
+import java.util.ArrayList;
+import java.util.List;
+public class findallduplicate {
+    public List<Integer> findDuplicates(int[] arr) {
         int i = 0;
         while (i < arr.length) {
             int correct = arr[i] - 1;
@@ -19,6 +12,15 @@ public class cyclicsort {
                 i++;
             }
         }
+
+        List<Integer> ans = new ArrayList<>();
+        for (int index = 0; index < arr.length; index++) {
+            if (arr[index] != index+1) {
+                ans.add(arr[index]);
+            }
+        }
+
+        return ans;
     }
 
     static void swap(int[] arr, int first, int second) {
@@ -26,6 +28,6 @@ public class cyclicsort {
         arr[first] = arr[second];
         arr[second] = temp;
     }
-
 }
+
 

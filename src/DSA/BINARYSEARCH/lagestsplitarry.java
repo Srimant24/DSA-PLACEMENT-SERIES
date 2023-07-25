@@ -17,7 +17,7 @@ public class lagestsplitarry {
                     sum = num;
                     pieces++;
                 } else {
-                    sum = num;
+                    sum+= num;
                 }
             }
             if (pieces > m) {
