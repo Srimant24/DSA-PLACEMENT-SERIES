@@ -26,6 +26,7 @@ public class SUBARRAYSUM {
         System.out.println("The length of the longest subarray is: " + len);
     }
 }
+//NOT INCLUDE ZEROS
 class subarraysumoptimised {
     public static int getLongestSubarray(int []a, long k) {
         int n = a.length; // size of the array.
@@ -67,6 +68,7 @@ class subarraysumoptimised {
         System.out.println("The length of the longest subarray is: " + len);
     }
 }
+//INCLUDE ZEROS
 class subarraysummoreoptimised {
     public static int getLongestSubarray(int []a, long k) {
         int n = a.length; // size of the array.
