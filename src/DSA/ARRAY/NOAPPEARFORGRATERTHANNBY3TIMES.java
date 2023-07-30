@@ -23,7 +23,7 @@ public class NOAPPEARFORGRATERTHANNBY3TIMES {
                     ls.add(v[i]);
             }
 
-            if (ls.size() == 2) break;
+           // if (ls.size() == 2) break;
         }
 
         return ls;
