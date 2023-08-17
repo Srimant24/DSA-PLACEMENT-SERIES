@@ -13,6 +13,7 @@ class Node1 {
     }
 
     // Destructor (Not required in Java as Java has automatic garbage collection)
+    //ok
 }
 
 public class DOUBLYLINKEDLIST {
